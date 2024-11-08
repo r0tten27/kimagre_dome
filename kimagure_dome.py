@@ -50,5 +50,5 @@ for char in text:
     placeholder.markdown(html_text, unsafe_allow_html=True)
     time.sleep(0.2)
 
-image_path = "./img/classroom.jpg"  # ここに画像のパスを指定します
+image_path = "./img/dome.jpg"  # ここに画像のパスを指定します
 st.image(image_path, use_column_width=True)
